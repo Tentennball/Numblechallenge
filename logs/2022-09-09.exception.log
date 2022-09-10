@@ -1,0 +1,512 @@
+2022-09-09 15:15:52 error : uncaughtException: string is not defined
+ReferenceError: string is not defined
+    at Object.<anonymous> (D:\numble\model\doctor.js:7:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 15:22:20 error : uncaughtException: Doctor.findAll is not a function
+TypeError: Doctor.findAll is not a function
+    at exports.getDoctorList (D:\numble\controller\doctor.js:8:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-09-09 16:11:31 error : uncaughtException: Doctor is not defined
+ReferenceError: Doctor is not defined
+    at Object.<anonymous> (D:\numble\app.js:22:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-09-09 16:13:17 error : uncaughtException: Doctor is not defined
+ReferenceError: Doctor is not defined
+    at Object.<anonymous> (D:\numble\app.js:22:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-09-09 16:14:35 error : uncaughtException: Doctor is not defined
+ReferenceError: Doctor is not defined
+    at Object.<anonymous> (D:\numble\model\doctor.js:21:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 16:15:07 error : uncaughtException: moongose is not defined
+ReferenceError: moongose is not defined
+    at Object.<anonymous> (D:\numble\model\doctor.js:17:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 16:15:12 error : uncaughtException: mongose is not defined
+ReferenceError: mongose is not defined
+    at Object.<anonymous> (D:\numble\model\doctor.js:17:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 16:15:54 error : uncaughtException: userSchema is not defined
+ReferenceError: userSchema is not defined
+    at Object.<anonymous> (D:\numble\model\doctor.js:17:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 16:19:22 error : uncaughtException: DoctorxSchema is not defined
+ReferenceError: DoctorxSchema is not defined
+    at Object.<anonymous> (D:\numble\model\doctor.js:17:39)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 16:19:48 error : uncaughtException: await is only valid in async functions and the top level bodies of modules
+D:\numble\controller\doctor.js:16
+  await doctor.save();
+  ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:7:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-09 16:21:33 error : uncaughtException: await is only valid in async functions and the top level bodies of modules
+D:\numble\controller\doctor.js:23
+          await doctor.save();
+          ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:7:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-09 16:22:10 error : uncaughtException: Unexpected token '.'
+D:\numble\controller\doctor.js:11
+    .then(async post => {
+    ^
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:7:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-09 16:50:29 error : uncaughtException: post is not defined
+ReferenceError: post is not defined
+    at exports.getDoctorList (D:\numble\controller\doctor.js:15:50)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-09-09 16:51:03 error : uncaughtException: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (D:\numble\node_modules\express\lib\response.js:1150:12)
+    at ServerResponse.json (D:\numble\node_modules\express\lib\response.js:271:14)
+    at exports.getDoctorList (D:\numble\controller\doctor.js:13:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-09-09 16:51:54 error : uncaughtException: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (D:\numble\node_modules\express\lib\response.js:1150:12)
+    at ServerResponse.json (D:\numble\node_modules\express\lib\response.js:271:14)
+    at exports.getDoctorList (D:\numble\controller\doctor.js:13:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-09-09 16:53:22 error : uncaughtException: Unexpected token ']'
+D:\numble\controller\doctor.js:11
+    console.log(docs.doctors[]);
+                             ^
+
+SyntaxError: Unexpected token ']'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:7:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-09 17:01:09 error : uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\numble\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (D:\numble\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\app.js:14:22)
+2022-09-09 17:02:16 error : uncaughtException: Invalid value for schema path `doctor_image_url.type`, got value "undefined"
+TypeError: Invalid value for schema path `doctor_image_url.type`, got value "undefined"
+    at Schema.add (D:\numble\node_modules\mongoose\lib\schema.js:584:13)
+    at Schema.add (D:\numble\node_modules\mongoose\lib\schema.js:638:12)
+    at new Schema (D:\numble\node_modules\mongoose\lib\schema.js:133:10)
+    at Object.<anonymous> (D:\numble\model\doctor.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2022-09-09 21:38:44 error : uncaughtException: DoctorSchema is not a constructor
+TypeError: DoctorSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctor.js:13:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 21:47:18 error : uncaughtException: doctordoc is not defined
+ReferenceError: doctordoc is not defined
+    at exports.getDoctorList (D:\numble\controller\doctor.js:11:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-09-09 21:59:40 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctor.js:22:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:00:15 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctor.js:22:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:02:12 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctor.js:22:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:07:44 error : uncaughtException: Unexpected end of input
+D:\numble\controller\doctor.js:46
+// };
+     
+
+SyntaxError: Unexpected end of input
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-09 22:08:59 error : uncaughtException: abcd.save is not a function
+TypeError: abcd.save is not a function
+    at exports.getDoctorInfo (D:\numble\controller\doctor.js:43:10)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (D:\numble\middleware\isAuth.js:4:9)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\numble\node_modules\express\lib\router\index.js:346:12)
+2022-09-09 22:09:57 error : uncaughtException: abcd.save is not a function
+TypeError: abcd.save is not a function
+    at exports.getDoctorInfo (D:\numble\controller\doctor.js:43:10)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (D:\numble\middleware\isAuth.js:4:9)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\numble\node_modules\express\lib\router\index.js:346:12)
+2022-09-09 22:12:55 error : uncaughtException: abcd.save is not a function
+TypeError: abcd.save is not a function
+    at exports.getDoctorInfo (D:\numble\controller\doctor.js:43:10)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (D:\numble\middleware\isAuth.js:4:9)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\numble\node_modules\express\lib\router\index.js:346:12)
+2022-09-09 22:15:03 error : uncaughtException: DoctorInfo.save is not a function
+TypeError: DoctorInfo.save is not a function
+    at exports.getDoctorInfo (D:\numble\controller\doctor.js:42:16)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (D:\numble\middleware\isAuth.js:4:9)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\numble\node_modules\express\lib\router\index.js:346:12)
+2022-09-09 22:16:14 error : uncaughtException: DoctorInfo is not defined
+ReferenceError: DoctorInfo is not defined
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:10:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:16:37 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:10:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:16:58 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:10:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:17:13 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:10:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:18:45 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:9:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:19:11 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:9:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:20:13 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:26:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:20:29 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:26:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:21:12 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:26:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:22:10 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:26:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:33:13 error : uncaughtException: info.save is not a function
+TypeError: info.save is not a function
+    at exports.getDoctorInfo (D:\numble\controller\doctor.js:40:10)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at module.exports (D:\numble\middleware\isAuth.js:4:9)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\numble\node_modules\express\lib\router\index.js:346:12)
+2022-09-09 22:44:02 error : uncaughtException: DoctorInfo is not defined
+ReferenceError: DoctorInfo is not defined
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:8:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:44:58 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:8:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:45:20 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:8:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-09 22:48:24 error : uncaughtException: DoctorInfoSchema is not a constructor
+TypeError: DoctorInfoSchema is not a constructor
+    at Object.<anonymous> (D:\numble\model\doctorinf.js:8:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)

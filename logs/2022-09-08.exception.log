@@ -1,0 +1,278 @@
+2022-09-08 01:11:38 error : uncaughtException: User validation failed: key: Path `key` is required., email: Path `email` is required.
+ValidationError: User validation failed: key: Path `key` is required., email: Path `email` is required.
+    at model.Document.invalidate (D:\numble\node_modules\mongoose\lib\document.js:3054:32)
+    at D:\numble\node_modules\mongoose\lib\document.js:2842:17
+    at D:\numble\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-08 01:14:24 error : uncaughtException: User validation failed: key: Path `key` is required., email: Path `email` is required.
+ValidationError: User validation failed: key: Path `key` is required., email: Path `email` is required.
+    at model.Document.invalidate (D:\numble\node_modules\mongoose\lib\document.js:3054:32)
+    at D:\numble\node_modules\mongoose\lib\document.js:2842:17
+    at D:\numble\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-08 01:14:42 error : uncaughtException: User validation failed: key: Path `key` is required., email: Path `email` is required.
+ValidationError: User validation failed: key: Path `key` is required., email: Path `email` is required.
+    at model.Document.invalidate (D:\numble\node_modules\mongoose\lib\document.js:3054:32)
+    at D:\numble\node_modules\mongoose\lib\document.js:2842:17
+    at D:\numble\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-08 01:15:12 error : uncaughtException: invalid signature
+JsonWebTokenError: invalid signature
+    at D:\numble\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\numble\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\numble\node_modules\jsonwebtoken\verify.js:94:10)
+    at Object.exports.payload (D:\numble\middleware\jwt.js:12:16)
+    at exports.postWithdrawal (D:\numble\controller\auth.js:48:21)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+2022-09-08 01:15:47 error : uncaughtException: invalid signature
+JsonWebTokenError: invalid signature
+    at D:\numble\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\numble\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\numble\node_modules\jsonwebtoken\verify.js:94:10)
+    at Object.exports.payload (D:\numble\middleware\jwt.js:12:16)
+    at exports.postWithdrawal (D:\numble\controller\auth.js:48:21)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+2022-09-08 01:21:28 error : uncaughtException: Cannot find module '../config/secretKey'
+Require stack:
+- D:\numble\middleware\jwt.js
+- D:\numble\controller\auth.js
+- D:\numble\routes\auth.js
+- D:\numble\app.js
+Error: Cannot find module '../config/secretKey'
+Require stack:
+- D:\numble\middleware\jwt.js
+- D:\numble\controller\auth.js
+- D:\numble\routes\auth.js
+- D:\numble\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\middleware\jwt.js:3:19)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-09-08 01:21:36 error : uncaughtException: Cannot find module '../config/secretKey'
+Require stack:
+- D:\numble\middleware\jwt.js
+- D:\numble\controller\auth.js
+- D:\numble\routes\auth.js
+- D:\numble\app.js
+Error: Cannot find module '../config/secretKey'
+Require stack:
+- D:\numble\middleware\jwt.js
+- D:\numble\controller\auth.js
+- D:\numble\routes\auth.js
+- D:\numble\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\middleware\jwt.js:3:19)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-09-08 01:21:42 error : uncaughtException: Cannot find module '../config/secretKey'
+Require stack:
+- D:\numble\controller\auth.js
+- D:\numble\routes\auth.js
+- D:\numble\app.js
+Error: Cannot find module '../config/secretKey'
+Require stack:
+- D:\numble\controller\auth.js
+- D:\numble\routes\auth.js
+- D:\numble\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\auth.js:4:19)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-09-08 01:24:21 error : uncaughtException: secret or public key must be provided
+JsonWebTokenError: secret or public key must be provided
+    at D:\numble\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\numble\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\numble\node_modules\jsonwebtoken\verify.js:94:10)
+    at Object.exports.payload (D:\numble\middleware\jwt.js:12:16)
+    at exports.postWithdrawal (D:\numble\controller\auth.js:48:21)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+2022-09-08 01:35:12 error : uncaughtException: Invalid shorthand property initializer
+D:\numble\config\secretKey.js:2
+    SECRET_KEY='secret',
+    ^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid shorthand property initializer
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\middleware\jwt.js:3:19)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-08 01:36:08 error : uncaughtException: secret or public key must be provided
+JsonWebTokenError: secret or public key must be provided
+    at D:\numble\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\numble\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\numble\node_modules\jsonwebtoken\verify.js:94:10)
+    at Object.exports.payload (D:\numble\middleware\jwt.js:12:16)
+    at exports.postWithdrawal (D:\numble\controller\auth.js:48:21)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+2022-09-08 01:39:01 error : uncaughtException: secret or public key must be provided
+JsonWebTokenError: secret or public key must be provided
+    at D:\numble\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\numble\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\numble\node_modules\jsonwebtoken\verify.js:94:10)
+    at Object.exports.payload (D:\numble\middleware\jwt.js:12:16)
+    at exports.postWithdrawal (D:\numble\controller\auth.js:48:21)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+2022-09-08 01:43:32 error : uncaughtException: token is not defined
+ReferenceError: token is not defined
+    at exports.postWithdrawal (D:\numble\controller\auth.js:47:23)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\numble\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\numble\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\numble\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\numble\node_modules\express\lib\router\index.js:47:12)
+2022-09-08 01:43:52 error : uncaughtException: jwt is not a function
+TypeError: jwt is not a function
+    at exports.postWithdrawal (D:\numble\controller\auth.js:47:19)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\numble\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\numble\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\numble\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\numble\node_modules\express\lib\router\index.js:47:12)
+2022-09-08 01:44:16 error : uncaughtException: payload is not defined
+ReferenceError: payload is not defined
+    at exports.postWithdrawal (D:\numble\controller\auth.js:47:19)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\numble\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\numble\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\numble\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\numble\node_modules\express\lib\router\index.js:47:12)
+2022-09-08 01:45:03 error : uncaughtException: secret or public key must be provided
+JsonWebTokenError: secret or public key must be provided
+    at D:\numble\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\numble\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\numble\node_modules\jsonwebtoken\verify.js:94:10)
+    at Object.exports.payload (D:\numble\middleware\jwt.js:12:16)
+    at exports.postWithdrawal (D:\numble\controller\auth.js:47:23)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+2022-09-08 01:53:43 error : uncaughtException: invalid signature
+JsonWebTokenError: invalid signature
+    at D:\numble\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\numble\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (D:\numble\node_modules\jsonwebtoken\verify.js:94:10)
+    at Object.exports.payload (D:\numble\middleware\jwt.js:13:16)
+    at exports.postWithdrawal (D:\numble\controller\auth.js:48:23)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+2022-09-08 12:19:48 error : uncaughtException: json is not defined
+ReferenceError: json is not defined
+    at exports.postWithdrawal (D:\numble\controller\auth.js:50:38)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\numble\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\numble\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\numble\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\numble\node_modules\express\lib\router\index.js:47:12)
+2022-09-08 12:23:19 error : uncaughtException: Cast to ObjectId failed for value "{ payload: 'lth8905@gmail.com', iat: 1662607175 }" (type Object) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "{ payload: 'lth8905@gmail.com', iat: 1662607175 }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (D:\numble\node_modules\mongoose\lib\query.js:4884:21)
+    at model.Query.Query.then (D:\numble\node_modules\mongoose\lib\query.js:4983:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-09-08 12:23:55 error : uncaughtException: Cast to ObjectId failed for value "{ payload: 'lth8905@gmail.com', iat: 1662607175 }" (type Object) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "{ payload: 'lth8905@gmail.com', iat: 1662607175 }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (D:\numble\node_modules\mongoose\lib\query.js:4884:21)
+    at model.Query.Query.then (D:\numble\node_modules\mongoose\lib\query.js:4983:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-09-08 12:24:11 error : uncaughtException: Cast to ObjectId failed for value "lth8905@gmail.com" (type string) at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "lth8905@gmail.com" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\numble\node_modules\mongoose\lib\query.js:4884:21)
+    at model.Query.Query.then (D:\numble\node_modules\mongoose\lib\query.js:4983:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-09-08 21:19:46 error : uncaughtException: requitre is not defined
+ReferenceError: requitre is not defined
+    at Object.<anonymous> (D:\numble\app.js:14:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-09-08 21:30:36 error : uncaughtException: array is not defined
+ReferenceError: array is not defined
+    at Object.<anonymous> (D:\numble\model\doctor.js:7:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-08 21:33:25 error : uncaughtException: string is not defined
+ReferenceError: string is not defined
+    at Object.<anonymous> (D:\numble\model\doctor.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)

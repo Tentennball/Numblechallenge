@@ -1,0 +1,450 @@
+2022-09-07 00:06:32 error : uncaughtException: email is not defined
+ReferenceError: email is not defined
+    at Object.<anonymous> (D:\numble\model\auth.js:7:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\auth.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-07 00:07:08 error : uncaughtException: email is not defined
+ReferenceError: email is not defined
+    at Object.<anonymous> (D:\numble\model\auth.js:7:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\auth.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-07 00:07:29 error : uncaughtException: email is not defined
+ReferenceError: email is not defined
+    at Object.<anonymous> (D:\numble\model\auth.js:7:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\auth.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-07 00:08:11 error : uncaughtException: email is not defined
+ReferenceError: email is not defined
+    at Object.<anonymous> (D:\numble\model\auth.js:7:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\auth.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-07 00:08:54 error : uncaughtException: email is not defined
+ReferenceError: email is not defined
+    at Object.<anonymous> (D:\numble\model\auth.js:7:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\auth.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-07 00:09:13 error : uncaughtException: email is not defined
+ReferenceError: email is not defined
+    at Object.<anonymous> (D:\numble\model\auth.js:7:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\auth.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-07 00:09:18 error : uncaughtException: email is not defined
+ReferenceError: email is not defined
+    at Object.<anonymous> (D:\numble\model\auth.js:7:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\auth.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-07 00:09:46 error : uncaughtException: email is not defined
+ReferenceError: email is not defined
+    at Object.<anonymous> (D:\numble\model\auth.js:7:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\auth.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-07 00:10:54 error : uncaughtException: email is not defined
+ReferenceError: email is not defined
+    at Object.<anonymous> (D:\numble\model\auth.js:7:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\auth.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-09-07 00:12:00 error : uncaughtException: Cannot read properties of undefined (reading 'email')
+TypeError: Cannot read properties of undefined (reading 'email')
+    at exports.postSignUp (D:\numble\controller\auth.js:6:38)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\numble\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\numble\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\numble\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\numble\node_modules\express\lib\router\index.js:47:12)
+2022-09-07 00:25:12 error : uncaughtException: Unexpected token ')'
+D:\numble\controller\auth.js:12
+        res.status(200).json({"status" : "ok", "data":{"token" : token(json.email)});
+                                                                                   ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\auth.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-07 00:26:48 error : uncaughtException: Unexpected token ')'
+D:\numble\controller\auth.js:12
+        res.status(200).json({"status" : "ok", "data":{"token" : token(json.email)});
+                                                                                   ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\auth.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-07 00:29:53 error : uncaughtException: Unexpected token ')'
+D:\numble\controller\auth.js:12
+        res.status(200).json({"status" : "ok", "data":{"token" : token(json.email)});
+                                                                                   ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\auth.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-07 00:41:54 error : uncaughtException: token is not defined
+ReferenceError: token is not defined
+    at D:\numble\controller\auth.js:16:35
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async exports.postSignUp (D:\numble\controller\auth.js:7:5)
+2022-09-07 00:43:38 error : uncaughtException: secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\numble\node_modules\jsonwebtoken\sign.js:107:20)
+    at Object.exports.token (D:\numble\middleware\jwt.js:4:16)
+    at D:\numble\controller\auth.js:16:39
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async exports.postSignUp (D:\numble\controller\auth.js:7:5)
+2022-09-07 01:35:55 error : uncaughtException: jwt.verify is not a function
+TypeError: jwt.verify is not a function
+    at D:\numble\controller\auth.js:35:30
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async exports.postSignIn (D:\numble\controller\auth.js:29:5)
+2022-09-07 01:36:59 error : uncaughtException: jwt malformed
+JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\numble\node_modules\jsonwebtoken\verify.js:63:17)
+    at Object.exports.payload (D:\numble\middleware\jwt.js:11:16)
+    at D:\numble\controller\auth.js:35:30
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async exports.postSignIn (D:\numble\controller\auth.js:29:5)
+2022-09-07 02:05:04 error : uncaughtException: dotenv is not defined
+ReferenceError: dotenv is not defined
+    at Object.<anonymous> (D:\numble\app.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-09-07 02:05:19 error : uncaughtException: dotenv is not defined
+ReferenceError: dotenv is not defined
+    at Object.<anonymous> (D:\numble\app.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-09-07 02:05:58 error : uncaughtException: secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\numble\node_modules\jsonwebtoken\sign.js:107:20)
+    at Object.exports.token (D:\numble\middleware\jwt.js:5:16)
+    at D:\numble\controller\auth.js:36:30
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async exports.postSignIn (D:\numble\controller\auth.js:29:5)
+2022-09-07 02:06:39 error : uncaughtException: secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\numble\node_modules\jsonwebtoken\sign.js:107:20)
+    at Object.exports.token (D:\numble\middleware\jwt.js:5:16)
+    at D:\numble\controller\auth.js:35:30
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async exports.postSignIn (D:\numble\controller\auth.js:29:5)
+2022-09-07 02:10:20 error : uncaughtException: Cannot read properties of null (reading 'key')
+TypeError: Cannot read properties of null (reading 'key')
+    at D:\numble\controller\auth.js:32:20
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async exports.postSignIn (D:\numble\controller\auth.js:29:5)
+2022-09-07 02:11:32 error : uncaughtException: Cannot read properties of null (reading 'key')
+TypeError: Cannot read properties of null (reading 'key')
+    at D:\numble\controller\auth.js:32:20
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async exports.postSignIn (D:\numble\controller\auth.js:29:5)
+2022-09-07 13:26:23 error : uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\numble\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (D:\numble\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\numble\routes\auth.js:13:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\app.js:13:20)
+2022-09-07 13:33:44 error : uncaughtException: bcrypt is not defined
+ReferenceError: bcrypt is not defined
+    at model.<anonymous> (D:\numble\model\auth.js:24:9)
+    at callMiddlewareFunction (D:\numble\node_modules\kareem\index.js:530:27)
+    at model.next (D:\numble\node_modules\kareem\index.js:79:7)
+    at _next (D:\numble\node_modules\kareem\index.js:132:10)
+    at D:\numble\node_modules\kareem\index.js:555:30
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-07 13:34:21 error : uncaughtException: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+Error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+    at Object.hash (D:\numble\node_modules\bcrypt\bcrypt.js:120:17)
+    at model.<anonymous> (D:\numble\model\auth.js:24:16)
+    at callMiddlewareFunction (D:\numble\node_modules\kareem\index.js:530:27)
+    at model.next (D:\numble\node_modules\kareem\index.js:79:7)
+    at _next (D:\numble\node_modules\kareem\index.js:132:10)
+    at D:\numble\node_modules\kareem\index.js:555:30
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-07 13:34:49 error : uncaughtException: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+Error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+    at Object.hash (D:\numble\node_modules\bcrypt\bcrypt.js:120:17)
+    at model.<anonymous> (D:\numble\model\auth.js:24:16)
+    at callMiddlewareFunction (D:\numble\node_modules\kareem\index.js:530:27)
+    at model.next (D:\numble\node_modules\kareem\index.js:79:7)
+    at _next (D:\numble\node_modules\kareem\index.js:132:10)
+    at D:\numble\node_modules\kareem\index.js:555:30
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-07 13:40:29 error : uncaughtException: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+Error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+    at Object.hash (D:\numble\node_modules\bcrypt\bcrypt.js:120:17)
+    at model.<anonymous> (D:\numble\model\auth.js:24:16)
+    at callMiddlewareFunction (D:\numble\node_modules\kareem\index.js:530:27)
+    at model.next (D:\numble\node_modules\kareem\index.js:79:7)
+    at _next (D:\numble\node_modules\kareem\index.js:132:10)
+    at D:\numble\node_modules\kareem\index.js:555:30
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-07 13:49:15 error : uncaughtException: Cannot read properties of undefined (reading 'key')
+TypeError: Cannot read properties of undefined (reading 'key')
+    at D:\numble\controller\auth.js:15:34
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async exports.postSignUp (D:\numble\controller\auth.js:8:5)
+2022-09-07 13:52:56 error : uncaughtException: user is not defined
+ReferenceError: user is not defined
+    at exports.postSignIn (D:\numble\controller\auth.js:30:17)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\numble\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\numble\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\numble\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\numble\node_modules\express\lib\router\index.js:47:12)
+2022-09-07 14:05:03 error : uncaughtException: Unexpected token '{'
+D:\numble\controller\auth.js:33
+        if(bcrypt.compare(json.key, userDoc.key){
+                                                ^
+
+SyntaxError: Unexpected token '{'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\auth.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-07 14:05:40 error : uncaughtException: Unexpected token '{'
+D:\numble\controller\auth.js:32
+        if(bcrypt.compare(json.key, userDoc.key){
+                                                ^
+
+SyntaxError: Unexpected token '{'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\auth.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-07 14:10:43 error : uncaughtException: Unexpected token '{'
+D:\numble\controller\auth.js:32
+        if(bcrypt.compareSync(json.key, userDoc.key){
+                                                    ^
+
+SyntaxError: Unexpected token '{'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\auth.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-07 14:20:56 error : uncaughtException: Unexpected token ')'
+D:\numble\controller\auth.js:48
+    if()
+       ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\auth.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-07 14:24:07 error : uncaughtException: Unexpected token ')'
+D:\numble\controller\auth.js:48
+    if(){
+       ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\auth.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-07 14:25:39 error : uncaughtException: User validation failed: key: Path `key` is required., email: Path `email` is required.
+ValidationError: User validation failed: key: Path `key` is required., email: Path `email` is required.
+    at model.Document.invalidate (D:\numble\node_modules\mongoose\lib\document.js:3054:32)
+    at D:\numble\node_modules\mongoose\lib\document.js:2842:17
+    at D:\numble\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-07 14:26:06 error : uncaughtException: User validation failed: key: Path `key` is required., email: Path `email` is required.
+ValidationError: User validation failed: key: Path `key` is required., email: Path `email` is required.
+    at model.Document.invalidate (D:\numble\node_modules\mongoose\lib\document.js:3054:32)
+    at D:\numble\node_modules\mongoose\lib\document.js:2842:17
+    at D:\numble\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-07 14:28:21 error : uncaughtException: User validation failed: key: Path `key` is required., email: Path `email` is required.
+ValidationError: User validation failed: key: Path `key` is required., email: Path `email` is required.
+    at model.Document.invalidate (D:\numble\node_modules\mongoose\lib\document.js:3054:32)
+    at D:\numble\node_modules\mongoose\lib\document.js:2842:17
+    at D:\numble\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-07 14:28:38 error : uncaughtException: User validation failed: key: Path `key` is required., email: Path `email` is required.
+ValidationError: User validation failed: key: Path `key` is required., email: Path `email` is required.
+    at model.Document.invalidate (D:\numble\node_modules\mongoose\lib\document.js:3054:32)
+    at D:\numble\node_modules\mongoose\lib\document.js:2842:17
+    at D:\numble\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-07 14:28:47 error : uncaughtException: User validation failed: key: Path `key` is required., email: Path `email` is required.
+ValidationError: User validation failed: key: Path `key` is required., email: Path `email` is required.
+    at model.Document.invalidate (D:\numble\node_modules\mongoose\lib\document.js:3054:32)
+    at D:\numble\node_modules\mongoose\lib\document.js:2842:17
+    at D:\numble\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-07 14:34:50 error : uncaughtException: User validation failed: key: Path `key` is required., email: Path `email` is required.
+ValidationError: User validation failed: key: Path `key` is required., email: Path `email` is required.
+    at model.Document.invalidate (D:\numble\node_modules\mongoose\lib\document.js:3054:32)
+    at D:\numble\node_modules\mongoose\lib\document.js:2842:17
+    at D:\numble\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-07 14:35:58 error : uncaughtException: User validation failed: key: Path `key` is required., email: Path `email` is required.
+ValidationError: User validation failed: key: Path `key` is required., email: Path `email` is required.
+    at model.Document.invalidate (D:\numble\node_modules\mongoose\lib\document.js:3054:32)
+    at D:\numble\node_modules\mongoose\lib\document.js:2842:17
+    at D:\numble\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-07 14:36:06 error : uncaughtException: User validation failed: key: Path `key` is required., email: Path `email` is required.
+ValidationError: User validation failed: key: Path `key` is required., email: Path `email` is required.
+    at model.Document.invalidate (D:\numble\node_modules\mongoose\lib\document.js:3054:32)
+    at D:\numble\node_modules\mongoose\lib\document.js:2842:17
+    at D:\numble\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-07 14:36:49 error : uncaughtException: User validation failed: key: Path `key` is required., email: Path `email` is required.
+ValidationError: User validation failed: key: Path `key` is required., email: Path `email` is required.
+    at model.Document.invalidate (D:\numble\node_modules\mongoose\lib\document.js:3054:32)
+    at D:\numble\node_modules\mongoose\lib\document.js:2842:17
+    at D:\numble\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2022-09-07 14:44:34 error : uncaughtException: jwt malformed
+JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (D:\numble\node_modules\jsonwebtoken\verify.js:63:17)
+    at Object.exports.payload (D:\numble\middleware\jwt.js:12:16)
+    at exports.postWithdrawal (D:\numble\controller\auth.js:48:23)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at D:\numble\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\numble\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\numble\node_modules\express\lib\router\index.js:280:10)
+2022-09-07 14:45:49 error : uncaughtException: User validation failed: key: Path `key` is required., email: Path `email` is required.
+ValidationError: User validation failed: key: Path `key` is required., email: Path `email` is required.
+    at model.Document.invalidate (D:\numble\node_modules\mongoose\lib\document.js:3054:32)
+    at D:\numble\node_modules\mongoose\lib\document.js:2842:17
+    at D:\numble\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
