@@ -25,7 +25,26 @@ exports.getDoctorInfo = async (req,res,next) => {
             "data": { doctor: doctorDoc }
         })
     });
-}
-//exports.postRegister = (req,res,next) => {
-    
-//};
+};
+
+
+exports.postRegister = async (req,res,next) => {
+    console.log('hi');
+    const doctor= req.body;
+    const failmsg = "Failed";
+    await Doctor.findOne({id: doctor.doctor_id})
+    .then(doctorDoc => {
+        console.log(doctorDoc);
+        if(doctorDoc){
+            res.status(200).json({
+                status:"ok",
+            });
+        }
+        else{
+            res.status(200).json({
+                status:"nok",
+                "data": { message: failmsg}
+            })
+        }
+    });
+};

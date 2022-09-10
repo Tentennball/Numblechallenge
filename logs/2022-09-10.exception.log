@@ -45,3 +45,115 @@ Error: Route.post() requires a callback function but got a [object Undefined]
     at Module.require (node:internal/modules/cjs/loader:1005:19)
     at require (node:internal/modules/cjs/helpers:102:18)
     at Object.<anonymous> (D:\numble\app.js:14:22)
+2022-09-10 21:45:23 error : uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (D:\numble\node_modules\express\lib\application.js:635:24)
+    at D:\numble\app.js:26:9
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-09-10 21:46:26 error : uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (D:\numble\node_modules\express\lib\application.js:635:24)
+    at D:\numble\app.js:26:9
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-09-10 21:51:12 error : uncaughtException: Malformed arrow function parameter list
+D:\numble\controller\doctor.js:29
+exports.postRegister = asnyc (req,res,next) => {
+                       ^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Malformed arrow function parameter list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-10 21:52:05 error : uncaughtException: Malformed arrow function parameter list
+D:\numble\controller\doctor.js:29
+exports.postRegister = asnyc (req,res,next) => {
+                       ^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Malformed arrow function parameter list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-10 21:59:22 error : uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\numble\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (D:\numble\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\app.js:14:22)
+2022-09-10 21:59:34 error : uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\numble\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (D:\numble\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\app.js:14:22)
+2022-09-10 21:59:40 error : uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\numble\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (D:\numble\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\app.js:14:22)
+2022-09-10 22:00:21 error : uncaughtException: Unexpected token ')'
+D:\numble\routes\doctor.js:11
+router.post('/v3/std/reg', doctorController.);
+                                            ^
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\app.js:14:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-10 22:00:34 error : uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\numble\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (D:\numble\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\app.js:14:22)

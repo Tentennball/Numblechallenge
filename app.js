@@ -12,6 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 const testRoutes = require('./routes/test');
 const authRoutes = require('./routes/auth');
 const doctorRoutes = require('./routes/doctor');
+
 const MONGODB_URI =
   'mongodb+srv://tentenball:dlxogns831@challenge1.xfvontt.mongodb.net/test';
 
