@@ -19,3 +19,29 @@ TypeError: Cannot read properties of null (reading 'doctor')
     at D:\numble\controller\doctor.js:48:28
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
     at async exports.getDoctorInfo (D:\numble\controller\doctor.js:46:5)
+2022-09-10 21:02:12 error : uncaughtException: consnole is not defined
+ReferenceError: consnole is not defined
+    at exports.getDoctorList (D:\numble\controller\doctor.js:9:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-09-10 21:24:45 error : uncaughtException: Cannot read properties of null (reading 'doctor')
+TypeError: Cannot read properties of null (reading 'doctor')
+    at D:\numble\controller\doctor.js:45:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async exports.getDoctorInfo (D:\numble\controller\doctor.js:43:5)
+2022-09-10 21:26:52 error : uncaughtException: Cannot read properties of null (reading 'doctor')
+TypeError: Cannot read properties of null (reading 'doctor')
+    at D:\numble\controller\doctor.js:45:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async exports.getDoctorInfo (D:\numble\controller\doctor.js:43:5)
+2022-09-10 21:41:46 error : uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\numble\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (D:\numble\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\app.js:14:22)
