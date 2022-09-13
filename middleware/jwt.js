@@ -1,14 +1,15 @@
-const jwt = require('jsonwebtoken');
-require("dotenv").config();
+import pkg from 'jsonwebtoken';
+const { sign, verify } = pkg;
 
 
-exports.token = (payload) => {
-    return jwt.sign({
+
+export function token(payload) {
+    return sign({
         payload
     },
         process.env.SECRET_KEY);
 }
 
-exports.payload = (token) => {
-    return jwt.verify(token, process.env.SECRET_KEY);
+export function payload(token) {
+    return verify(token, process.env.SECRET_KEY);
 }

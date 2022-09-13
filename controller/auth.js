@@ -1,9 +1,9 @@
-const User = require('../model/auth').default;
-const jwt = require('../middleware/jwt');
-const bcrypt = require('bcrypt');
-require("dotenv").config();
+import User from '../model/auth.js';
+import { token } from '../middleware/jwt.js';
+import { compare } from 'bcrypt';
 
-exports.postSignUp = async (req, res, next) => {
+
+export async function postSignUp(req, res, next) {
     const json = req.body;
 
     await User.findOne({ email: json.email })
@@ -15,7 +15,7 @@ exports.postSignUp = async (req, res, next) => {
                 await new User(json).save();
                 res.status(200).json({
                     "status": "ok",
-                    "data": { "token": jwt.token(json.email) }
+                    "data": { "token": token(json.email) }
                 });
             }
         })
@@ -23,16 +23,16 @@ exports.postSignUp = async (req, res, next) => {
     //     res.status(200).json({"status" : "nok"});
     // });
 
-};
+}
 
-exports.postSignIn = async (req, res, next) => {
+export async function postSignIn(req, res, next) {
     const json = req.body;
     await User.findOne({ email: json.email })
         .then(async userDoc => {
-            if (bcrypt.compare(json.key, userDoc.key)) {
+            if (compare(json.key, userDoc.key)) {
                 res.status(200).json({
                     "status": "ok",
-                    "data": { "token": jwt.token(json.email) }
+                    "data": { "token": token(json.email) }
                 });
             }
             else {
@@ -41,12 +41,12 @@ exports.postSignIn = async (req, res, next) => {
                 })
             }
         });
-};
+}
 
-exports.postWithdrawal = async (req, res, next) => {
+export async function postWithdrawal(req, res, next) {
     await User.findOneAndRemove(email);
     res.status(200).json({
         "status": "ok",
     });
-};
+}
 

@@ -1,13 +1,13 @@
-const path = require('path');
-const express = require('express');
-const router = express.Router();
-const authController = require('../controller/auth');
-const isAuth = require('../middleware/isAuth');
+import path from 'path';
+import { Router } from 'express';
+const router = Router();
+import { postSignUp, postSignIn, postWithdrawal } from '../controller/auth.js';
+import isAuth from '../middleware/isAuth.js';
 
-router.post('/v3/user/reg', authController.postSignUp);
+router.post('/v3/user/reg', postSignUp);
 
-router.post('/v3/auth/login', authController.postSignIn);
+router.post('/v3/auth/login', postSignIn);
 
-router.post('/v3/user/unreg', isAuth, authController.postWithdrawal);
+router.post('/v3/user/unreg', isAuth, postWithdrawal);
 
-module.exports = router;
+export default router;

@@ -1,4 +1,4 @@
-exports.getUsers = (req,res,next) => {
+export function getUsers(req,res,next) {
     try{
     res.status(200).json({"data":""});
     }

@@ -1,12 +1,13 @@
-const path = require('path');
-const { logger } = require('./config/logger');
-const express = require('express');
-const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
+import path from 'path';
+import { logger } from './config/logger.js';
+import express, { json, urlencoded } from 'express';
+import bodyParser from 'body-parser';
+import mongopkg from 'mongoose';
+const { connect } = mongopkg;
 const app = express();
-const dotenv = require('dotenv');
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+import { config } from 'dotenv';
+app.use(json());
+app.use(urlencoded({ extended: true }));
 
 app.use((err, req, res, next) => {
   logger.error(err.message);
@@ -14,20 +15,19 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500);
 });
 
-const testRoutes = require('./routes/test');
-const authRoutes = require('./routes/auth');
-const doctorRoutes = require('./routes/doctor');
+import testRoutes from './routes/test.js';
+import authRoutes from './routes/auth.js';
+import doctorRoutes from './routes/doctor.js';
 
 const MONGODB_URI =
   'mongodb+srv://tentenball:dlxogns831@challenge1.xfvontt.mongodb.net/test';
 
-dotenv.config();
+config();
 app.use(testRoutes);
 app.use(authRoutes);
 app.use(doctorRoutes);
 
-mongoose
-  .connect(MONGODB_URI)
+connect(MONGODB_URI)
   .then(result => {
     app.listen(3000);
   })

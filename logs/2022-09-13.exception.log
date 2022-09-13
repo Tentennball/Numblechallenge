@@ -280,3 +280,173 @@ Error: Route.get() requires a callback function but got a [object Undefined]
     at Module.require (node:internal/modules/cjs/loader:1005:19)
     at require (node:internal/modules/cjs/helpers:102:18)
     at Object.<anonymous> (D:\numble\app.js:19:22)
+2022-09-13 21:48:01 error : uncaughtException: model is not defined
+ReferenceError: model is not defined
+    at file:///D:/numble/model/auth.js:20:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:48:12 error : uncaughtException: model is not defined
+ReferenceError: model is not defined
+    at file:///D:/numble/model/auth.js:20:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:48:56 error : uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/numble/middleware/jwt.js:3:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:49:40 error : uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/numble/middleware/jwt.js:3:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:50:39 error : uncaughtException: model is not defined
+ReferenceError: model is not defined
+    at file:///D:/numble/model/auth.js:20:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:51:36 error : uncaughtException: Schema is not a constructor
+TypeError: Schema is not a constructor
+    at file:///D:/numble/model/auth.js:5:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:52:48 error : uncaughtException: model is not defined
+ReferenceError: model is not defined
+    at file:///D:/numble/model/auth.js:19:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:52:58 error : uncaughtException: model is not defined
+ReferenceError: model is not defined
+    at file:///D:/numble/model/auth.js:19:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:53:17 error : uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/numble/middleware/jwt.js:3:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:53:21 error : uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/numble/middleware/jwt.js:3:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:54:37 error : uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/numble/middleware/jwt.js:3:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:54:48 error : uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/numble/middleware/jwt.js:3:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:55:11 error : uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/numble/middleware/jwt.js:3:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:55:32 error : uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/numble/middleware/jwt.js:3:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:55:52 error : uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/numble/middleware/jwt.js:3:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:56:03 error : uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/numble/middleware/jwt.js:3:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 21:57:27 error : uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\numble\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/numble/controller/auth.js:4:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+2022-09-13 22:02:20 error : uncaughtException: `Model.find()` cannot run without a model as `this`. Make sure you are calling `MyModel.find()` where `MyModel` is a Mongoose model.
+MongooseError: `Model.find()` cannot run without a model as `this`. Make sure you are calling `MyModel.find()` where `MyModel` is a Mongoose model.
+    at _checkContext (D:\numble\node_modules\mongoose\lib\model.js:1264:11)
+    at find (D:\numble\node_modules\mongoose\lib\model.js:2165:3)
+    at getDoctorList (file:///D:/numble/controller/doctor.js:5:5)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at default (file:///D:/numble/middleware/isAuth.js:4:9)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\numble\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\numble\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\numble\node_modules\express\lib\router\layer.js:95:5)

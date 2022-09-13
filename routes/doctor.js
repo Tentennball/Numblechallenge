@@ -1,13 +1,13 @@
-const path = require('path');
-const express = require('express');
-const router = express.Router();
-const doctorController = require('../controller/doctor');
-const isAuth = require('../middleware/isAuth');
+import path from 'path';
+import { Router } from 'express';
+const router = Router();
+import { getDoctorList, getDoctorInfo, postRegister } from '../controller/doctor.js';
+import isAuth from '../middleware/isAuth.js';
 
-router.get('/v3/doctor/list', isAuth, doctorController.getDoctorList);
+router.get('/v3/doctor/list', isAuth, getDoctorList);
 
-router.get('/v3/doctor', isAuth, doctorController.getDoctorInfo);
+router.get('/v3/doctor', isAuth, getDoctorInfo);
 
-router.post('/v3/std/reg', isAuth, doctorController.postRegister);
+router.post('/v3/std/reg', isAuth, postRegister);
 
-module.exports = router;
+export default router;

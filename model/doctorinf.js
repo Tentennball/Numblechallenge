@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+import mongoose from 'mongoose';
+const { Schema } = mongoose;
 
 const DoctorInfoSchema = new Schema({
     id: {
@@ -28,4 +28,4 @@ const DoctorInfoSchema = new Schema({
 });
 
 
-module.exports = mongoose.model('DoctorInf', DoctorInfoSchema);
+export default mongoose.model('DoctorInf', DoctorInfoSchema);

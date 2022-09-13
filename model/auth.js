@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
-const Schema = mongoose.Schema;
+import mongoose from 'mongoose';
+import { hash } from 'bcrypt';
+const { Schema } = mongoose;
 
 const UserSchema = new Schema({
     email: {
@@ -21,7 +21,7 @@ UserSchema.pre("save", async function (next) {
   
     if (user.isModified('key')) {
       // password가 변경될 때만 Hashing 실행
-      const encrypted = await bcrypt.hash(user.key, 10);
+      const encrypted = await hash(user.key, 10);
       user.key = encrypted;
     }
     else {
@@ -30,4 +30,4 @@ UserSchema.pre("save", async function (next) {
     }
   });
 
-module.exports = mongoose.model('User', UserSchema);
+export default mongoose.model('User', UserSchema);

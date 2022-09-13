@@ -1,3 +1,1 @@
-module.exports = {
-    secretkey : 'dlxogns831~',
-}
+export const secretkey = 'dlxogns831~';

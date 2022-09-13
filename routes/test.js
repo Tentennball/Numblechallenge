@@ -1,12 +1,12 @@
-const path = require('path');
+import path from 'path';
 
-const express = require('express');
+import { Router } from 'express';
 
-const router = express.Router();
+const router = Router();
 
-const testController = require('../controller/test');
+import { getUsers } from '../controller/test.js';
 
-router.get('/v3/test', testController.getUsers);
+router.get('/v3/test', getUsers);
 
 
-module.exports = router;
+export default router;

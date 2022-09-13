@@ -1,6 +1,6 @@
-const Doctor = require('../model/doctorinf');
+import Doctor from '../model/doctorinf.js';
 
-exports.getDoctorList = async (req, res, next) => {
+export async function getDoctorList(req, res, next) {
     Doctor.find({},{id:1,doctor_display_name:1,doctor_image_url:1,hospital_name:1,hospital_address:1,description:1,hospital_img:1})
     .then((docs) => {
         console.log(docs);
@@ -11,9 +11,9 @@ exports.getDoctorList = async (req, res, next) => {
     })
     .catch((err)=>{throw new Error(err)});
 
-};
+}
 
-exports.getDoctorInfo = async (req,res,next) => {
+export async function getDoctorInfo(req,res,next) {
     const doctorId = req.query.doctor_id;
     console.log(doctorId);
     await Doctor.findOne({id : doctorId})
@@ -23,12 +23,12 @@ exports.getDoctorInfo = async (req,res,next) => {
             "data": { doctor: doctorDoc }
         })
     });
-};
+}
 
-exports.postRegister = async(req,res,next) => {
+export async function postRegister(req,res,next) {
     const doctor = req.body.doctor_id;
     const message = "Failed";
-    console.log(req.body);
+    
     await Doctor.findOne({id: doctor})
     .then(doctorDoc => {
         if(doctorDoc)
