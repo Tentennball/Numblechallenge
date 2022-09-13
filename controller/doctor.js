@@ -27,7 +27,6 @@ exports.getDoctorInfo = async (req,res,next) => {
     });
 };
 
-
 exports.postRegister = async (req,res,next) => {
     console.log('hi');
     const doctor= req.body;
@@ -43,7 +42,7 @@ exports.postRegister = async (req,res,next) => {
         else{
             res.status(200).json({
                 status:"nok",
-                "data": { message: failmsg}
+                "data": { message: failmsg }
             })
         }
     });
