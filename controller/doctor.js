@@ -1,5 +1,3 @@
-const User = require('../model/auth');
-const jwt = require('../middleware/jwt');
 const Doctor = require('../model/doctorinf');
 
 exports.getDoctorList = async (req, res, next) => {
@@ -17,9 +15,9 @@ exports.getDoctorList = async (req, res, next) => {
 
 exports.getDoctorInfo = async (req,res,next) => {
     const doctorId = req.query.doctor_id;
+    console.log(doctorId);
     await Doctor.findOne({id : doctorId})
     .then(doctorDoc => {
-        console.log(doctorDoc);
         res.status(200).json({
             status: "ok",
             "data": { doctor: doctorDoc }
@@ -27,23 +25,6 @@ exports.getDoctorInfo = async (req,res,next) => {
     });
 };
 
-exports.postRegister = async (req,res,next) => {
-    console.log('hi');
-    const doctor= req.body;
-    const failmsg = "Failed";
-    await Doctor.findOne({id: doctor.doctor_id})
-    .then(doctorDoc => {
-        console.log(doctorDoc);
-        if(doctorDoc){
-            res.status(200).json({
-                status:"ok",
-            });
-        }
-        else{
-            res.status(200).json({
-                status:"nok",
-                "data": { message: failmsg }
-            })
-        }
-    });
-};
+exports.postRegister = async(req,res,next) => {
+    console.log(req.body);
+}
