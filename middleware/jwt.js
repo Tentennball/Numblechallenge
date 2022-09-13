@@ -1,7 +1,5 @@
-import pkg from 'jsonwebtoken';
-const { sign, verify } = pkg;
-
-
+import jwt from 'jsonwebtoken';
+const { sign, verify } = jwt;
 
 export function token(payload) {
     return sign({

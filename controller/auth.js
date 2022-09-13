@@ -2,12 +2,11 @@ import User from '../model/auth.js';
 import { token } from '../middleware/jwt.js';
 import { compare } from 'bcrypt';
 
-
 export async function postSignUp(req, res, next) {
     const json = req.body;
 
-    await User.findOne({ email: json.email })
-        .then(async userDoc => {
+    let userDoc = await User.findOne({ email: json.email });
+        try{
             if (userDoc) {
                 res.status(200).json({ "status": "user_duplicate" });
             }
@@ -18,11 +17,11 @@ export async function postSignUp(req, res, next) {
                     "data": { "token": token(json.email) }
                 });
             }
-        })
-    // .catch(err => {
-    //     res.status(200).json({"status" : "nok"});
-    // });
-
+        }
+        catch(err){
+            logger.error('Signup Error : '+ err);
+            res.status(200).json({"status" : "nok"});
+        };
 }
 
 export async function postSignIn(req, res, next) {
