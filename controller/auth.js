@@ -1,4 +1,4 @@
-const User = require('../model/auth');
+const User = require('../model/auth').default;
 const jwt = require('../middleware/jwt');
 const bcrypt = require('bcrypt');
 require("dotenv").config();

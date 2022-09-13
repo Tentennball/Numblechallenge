@@ -8,6 +8,11 @@ const dotenv = require('dotenv');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use((err, req, res, next) => {
+  logger.error(err.message);
+  res.locals.error = process.env.NODE_ENV !== 'production' ? err : {};
+  res.status(err.status || 500);
+});
 
 const testRoutes = require('./routes/test');
 const authRoutes = require('./routes/auth');

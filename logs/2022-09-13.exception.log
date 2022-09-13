@@ -38,3 +38,245 @@ Error: Route.post() requires a callback function but got a [object Undefined]
     at Module.require (node:internal/modules/cjs/loader:1005:19)
     at require (node:internal/modules/cjs/helpers:102:18)
     at Object.<anonymous> (D:\numble\app.js:14:22)
+2022-09-13 20:26:58 error : uncaughtException: Cannot use import statement outside a module
+D:\numble\model\doctorinf.js:1
+import { Schema as _Schema, model } from 'mongoose';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\doctor.js:1:16)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-13 21:08:28 error : uncaughtException: Cannot use import statement outside a module
+D:\numble\model\auth.js:1
+import { Schema as _Schema, model } from 'mongoose';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\auth.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-13 21:09:04 error : uncaughtException: Cannot use import statement outside a module
+D:\numble\model\auth.js:1
+import { Schema as _Schema, model } from 'mongoose';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\controller\auth.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-13 21:17:31 error : uncaughtException: Cannot destructure property 'logger' of 'require(...).default' as it is undefined.
+TypeError: Cannot destructure property 'logger' of 'require(...).default' as it is undefined.
+    at Object.<anonymous> (D:\numble\app.js:2:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-09-13 21:17:33 error : uncaughtException: Cannot destructure property 'logger' of 'require(...).default' as it is undefined.
+TypeError: Cannot destructure property 'logger' of 'require(...).default' as it is undefined.
+    at Object.<anonymous> (D:\numble\app.js:2:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-09-13 21:18:28 error : uncaughtException: Cannot destructure property 'logger' of 'require(...).default' as it is undefined.
+TypeError: Cannot destructure property 'logger' of 'require(...).default' as it is undefined.
+    at Object.<anonymous> (D:\numble\app.js:2:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-09-13 21:18:45 error : uncaughtException: Cannot destructure property 'logger' of 'require(...).default' as it is undefined.
+TypeError: Cannot destructure property 'logger' of 'require(...).default' as it is undefined.
+    at Object.<anonymous> (D:\numble\app.js:2:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-09-13 21:18:53 error : uncaughtException: Cannot destructure property 'logger' of 'require(...).default' as it is undefined.
+TypeError: Cannot destructure property 'logger' of 'require(...).default' as it is undefined.
+    at Object.<anonymous> (D:\numble\app.js:2:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-09-13 21:18:57 error : uncaughtException: Cannot destructure property 'logger' of 'require(...).default' as it is undefined.
+TypeError: Cannot destructure property 'logger' of 'require(...).default' as it is undefined.
+    at Object.<anonymous> (D:\numble\app.js:2:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-09-13 21:19:30 error : uncaughtException: Unexpected token 'export'
+D:\numble\controller\test.js:1
+export function getUsers(req,res,next) {
+^^^^^^
+
+SyntaxError: Unexpected token 'export'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\test.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-13 21:19:50 error : uncaughtException: Unexpected token 'export'
+D:\numble\controller\test.js:1
+export function getUsers(req,res,next) {
+^^^^^^
+
+SyntaxError: Unexpected token 'export'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\test.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-13 21:20:04 error : uncaughtException: Unexpected token 'export'
+D:\numble\controller\test.js:1
+export function getUsers(req,res,next) {
+^^^^^^
+
+SyntaxError: Unexpected token 'export'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\test.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-13 21:20:35 error : uncaughtException: Unexpected token 'export'
+D:\numble\controller\test.js:1
+export function getUsers(req,res,next) {
+^^^^^^
+
+SyntaxError: Unexpected token 'export'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\test.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-13 21:20:51 error : uncaughtException: Unexpected token 'export'
+D:\numble\controller\test.js:1
+export function getUsers(req,res,next) {
+^^^^^^
+
+SyntaxError: Unexpected token 'export'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\test.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-13 21:21:34 error : uncaughtException: Unexpected token 'export'
+D:\numble\controller\test.js:1
+export function getUsers(req,res,next) {
+^^^^^^
+
+SyntaxError: Unexpected token 'export'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\test.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-13 21:21:45 error : uncaughtException: Unexpected token 'export'
+D:\numble\controller\test.js:1
+export function getUsers(req,res,next) {
+^^^^^^
+
+SyntaxError: Unexpected token 'export'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\routes\test.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-13 21:21:57 error : uncaughtException: Cannot use import statement outside a module
+D:\numble\routes\test.js:1
+import path from 'path';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\app.js:17:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+2022-09-13 21:29:45 error : uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\numble\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (D:\numble\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\numble\routes\doctor.js:7:8)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\numble\app.js:19:22)

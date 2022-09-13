@@ -2,7 +2,10 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const DoctorInfoSchema = new Schema({
-    id: String,
+    id: {
+            type: String, 
+            alias:'doctor_id'
+        },
     available_hours: String,
     available_weekday: String,
     description: String,
