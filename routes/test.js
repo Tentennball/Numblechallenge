@@ -1,7 +1,7 @@
 import { Router } from 'express';
 const router = Router();
-import { getUsers } from '../controller/test.js';
+import { getIndexPage } from '../controller/test.js';
 
-router.get('/v3/test', getUsers);
+router.get('/v3/test', getIndexPage);
 
 export default router;

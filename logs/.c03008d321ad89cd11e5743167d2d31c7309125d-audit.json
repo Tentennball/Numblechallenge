@@ -39,6 +39,11 @@
             "date": 1663064556925,
             "name": "logs\\2022-09-13.exception.log",
             "hash": "8e18ce3ab9f707c5c0ce2f73372c6990cc696438d9b9ab000e2acaac42835bda"
+        },
+        {
+            "date": 1663250720578,
+            "name": "logs\\2022-09-15.exception.log",
+            "hash": "f5f3703795790f9c0747c12ed8a11775b1a89881b7bc00f6999a91cd7a067577"
         }
     ],
     "hashType": "sha256"

@@ -10,7 +10,6 @@ import testRoutes from './routes/test.js';
 import authRoutes from './routes/auth.js';
 import doctorRoutes from './routes/doctor.js';
 
-
 app.use((err, req, res, next) => {
   logger.error(err.message);
   res.locals.error = process.env.NODE_ENV !== 'production' ? err : {};

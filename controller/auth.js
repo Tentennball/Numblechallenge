@@ -2,7 +2,7 @@ import User from '../model/auth.js';
 import { token } from '../middleware/jwt.js';
 import { compare } from 'bcrypt';
 
-export async function postSignUp(req, res, next) {
+export async function signUp(req, res, next) {
     const json = req.body;
 
     let userDoc = await User.findOne({ email: json.email });
@@ -24,7 +24,7 @@ export async function postSignUp(req, res, next) {
         };
 }
 
-export async function postSignIn(req, res, next) {
+export async function signIn(req, res, next) {
     const json = req.body;
     await User.findOne({ email: json.email })
         .then(async userDoc => {
@@ -42,7 +42,7 @@ export async function postSignIn(req, res, next) {
         });
 }
 
-export async function postWithdrawal(req, res, next) {
+export async function withdrawal(req, res, next) {
     await User.findOneAndRemove(email);
     res.status(200).json({
         "status": "ok",
